@@ -1,0 +1,25 @@
+{
+  "name": "goit-typescript-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elswortz/goit-typescript-hw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Elswortz/goit-typescript-hw/issues"
+  },
+  "homepage": "https://github.com/Elswortz/goit-typescript-hw#readme",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@web/dev-server": "^0.4.6"
+  }
+}
