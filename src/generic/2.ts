@@ -2,36 +2,35 @@ type AllType = {
   name: string;
   position: number;
   color: string;
-  weight: number
-}
+  weight: number;
+};
 
-type topType = Pick<AllType, 'name' | 'color'>;
-type bottomType = Pick<AllType, 'position' | 'weight'>
+type topType = Pick<AllType, "name" | "color">;
+type bottomType = Pick<AllType, "position" | "weight">;
 
-function compare (top: topType, bottom: bottomType): AllType {
+function compare(top: topType, bottom: bottomType): AllType {
   return {
     name: top.name,
     color: top.color,
     position: bottom.position,
     weight: bottom.weight,
-  }
+  };
 }
 
 const objectA = {
-  name: 'Andrii',
+  name: "Andrii",
   position: 4,
-  color: 'red',
+  color: "red",
   weight: 85,
-  form: 'unique'
-}
+  form: "unique",
+};
 
 const objectB = {
-  name: 'Bogdan',
+  name: "Bogdan",
   position: 7,
-  color: 'green',
+  color: "green",
   weight: 90,
-  class: 'heavy'
-}
-
+  class: "heavy",
+};
 
 compare(objectA, objectB);
