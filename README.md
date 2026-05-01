@@ -1,1 +1,1 @@
-# goit-typescript-hw
+// typescript HW
